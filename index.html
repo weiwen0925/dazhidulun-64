@@ -1030,4 +1030,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C64P2:END-->
+<!--WY-C64P3:BEGIN-->
+<style id="wy-c64p3-css">
+.c64p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c64p3-fabbox.show{display:block;}
+.c64p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c64p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c64p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c64p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c64p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c64p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c64p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c64p3-modal.open{display:flex;}
+.c64p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c64p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c64p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c64p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c64p3-close:hover{background:#e3d5b8;}
+.c64p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c64p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c64p3-tbl th,.c64p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c64p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c64p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c64p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c64p3-tbl b{color:#8b2500;}
+.c64p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c64p3-note b{color:#8b2500;}
+@media(max-width:900px){.c64p3-fabbox{right:14px;}.c64p3-tbl{font-size:11.5px;}.c64p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c64p3-fabbox" id="c64p3Box"><button class="c64p3-btn" id="c64p3Btn" type="button" aria-label="開啟全景總表"><span class="c64p3-ic">▦</span><span class="c64p3-ls"><span class="c64p3-l1">本品 · 般若空義與護法實相</span><span class="c64p3-l2">帝釋問護般若 · 從守護到破相</span></span></button></div><div class="c64p3-modal" id="c64p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c64p3-card"><button class="c64p3-close" id="c64p3Close" type="button" aria-label="關閉">×</button><h3>卷六十四·第三品 般若空義與護法實相 · 全景總表</h3><p class="sub">卷六十四・第三品｜帝釋問習般若為習空・護持畢竟空之悖論・安住即是守護・舍利弗滅盡定・夢焰影響幻化六喻・四種念夢病理・空空三昧・中論三維映射・日常修持檢證矩陣</p><table class="c64p3-tbl"><caption>一、帝釋發願守護與有相防禦之悖論（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>習般若為習空</td><td>帝釋問菩薩摩訶薩習般若波羅蜜，為習何法，須菩提答為習空，論主釋諸法久久皆歸涅槃故，當習諸法空，此答已為全品定調</td></tr><tr><td>帝釋發願守護之因緣</td><td>帝釋為人天王、於世間自在，聞般若甚深，發願隨其所須盡當與之，守護受持般若之善男子善女人，恐惡鬼魔民常惱行者，此建立在實有威脅、實有受害者、實有防禦機制三個實有預設之上</td></tr><tr><td>護持畢竟空之循環悖論</td><td>須菩提反問汝頗見定有一法可守護不，帝釋答不也，揭示無解悖論——般若畢竟空要求無一法可得，護持卻預設有法可護，兩者邏輯上彼此抵銷</td></tr><tr><td>安住即是守護之範式轉移</td><td>若行者如所說般若中住，即是守護。真正的守護非建城牆抵禦外力，而是遮諸苦惱、令得安樂的自身狀態轉換，常不離般若行者不須外加守護</td></tr><tr><td>內無我外無敵之二種因緣</td><td>一者從身乃至一切法皆厭離，無我無我所故皆無所著，如斬草木不生憂愁；二者得上妙法故為十方諸佛菩薩諸天守護，內在拔除加外在感應，惡鬼非人不得其便</td></tr></tbody></table><table class="c64p3-tbl"><caption>二、夢焰影響幻化六喻與四種念夢病理（核心辯證）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>舍利弗滅盡定實證案例</td><td>伽羅夜叉以拳打舍利弗頭，舍利弗時入滅盡定不覺打痛；般若波羅蜜氣分即是滅盡定，故若人若非人不能得便，證明空性具備實證境界之緩衝能力</td></tr><tr><td>守護虛空與六喻之不能護</td><td>汝能護夢、焰、影、響、幻、化不，不能護；虛空雨不能壞風日不能乾刀杖不能傷，欲守護虛空者徒自疲苦，五眾如夢等虛誑亦復如是不可守護</td></tr><tr><td>藥病雙除之危機</td><td>夢等喻五眾，本為破除對現實之執著（去病），然人於夢亦復生著，帝釋轉問云何於夢亦不念，辯證焦點自物理防禦轉向認知陷阱</td></tr><tr><td>四種念夢之病理總覽</td><td>念夢（定有夢法眠睡時生，將夢實體化）、念是夢（分別是夢惡是夢好，二元分別死灰復燃）、念用夢（執著自己使用夢喻工具而生法慢）、念我夢（建立覺知諸法如夢之我，我執幽微重建）</td></tr><tr><td>終極解藥·不念夢破五眾著</td><td>破著故，於夢中亦不錯；若不能破色著，是人於色錯，於夢亦錯。用夢破除對色（現實）之執著後，須立即將夢這個概念本身亦捨棄，方直入諸法實相</td></tr></tbody></table><table class="c64p3-tbl"><caption>三、中論三維映射與日常修持檢證（收束總攝）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>X軸·無我則無我所</td><td>從身乃至一切諸法，皆厭離；無我、無我所故，皆無所著，對應《中論》若無有我者，何得有我所，標的物之本體消解，沒有靶心箭矢便失去意義</td></tr><tr><td>Y軸·能所雙亡</td><td>帝釋預設絕對的能護者（帝釋）與所護者（行者），須菩提以汝頗見定有一法可守護不破之；能護所護失去依存條件，防禦行為自然無法成立</td></tr><tr><td>Z軸·空空三昧破夢喻執</td><td>先以空（夢喻）破有（五眾），再連這個空亦要破掉，若不吐出夢喻這副藥，藥即成病，此即中觀以空破有、再以空空破空之精髓</td></tr><tr><td>須菩提破著邏輯鏈</td><td>由不念色始，經不念是夢，終至直入諸法實相；對空性（夢）的正確理解，嚴格依賴於對現實（色）的徹底不執著</td></tr><tr><td>日常修持檢證矩陣</td><td>對境執著（恐懼魔擾外求保護）為病，對境解脫（無我無我所故不得其便）為藥；對法執著（念用夢念我夢）為病，對法解脫（借假修真於夢不念）為藥，兩軸四象限總攝全品教法</td></tr></tbody></table><p class="c64p3-note">本品以帝釋天的一片護法善意為引子，展開一場層層遞進的中觀邏輯推演。須菩提並不順著如何守護往下走，而是釜底抽薪，先揭穿護持畢竟空本身的循環悖論——護持預設有法可護，而般若畢竟空卻要求無一法可得，兩者互相抵銷；繼而將守護重新定義為安住即是守護，並以舍利弗入滅盡定不覺夜叉打痛為實證案例，說明<b>內無我則外無敵，惡鬼非人自然不得其便</b>。全品最精微處在後半：當帝釋以如夢智慧觀照五眾而免於外在守護之後，隨即又貪著這帖空藥本身，衍生念夢、念是夢、念用夢、念我夢四重微細法執——凡夫的思維慣性正在於，給他世俗法他執世俗法，給他空法他照樣把空法包裝成新的實體來執著。終極解藥是不念夢：連夢這個譬喻也須捨去，方是破著故、於夢中亦不錯的真實下手處。此一辯證恰可映射《中論》的三重維度——無我（本體消解）、能所雙亡（二元崩塌）、空空（破空性自身之執著）——三軸交會於一點，即是實相無護、安住即護，諸法如夢、於夢亦不念的般若護法終極心要。</p></div></div>
+<script id="wy-c64p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c64p3Btn"),BOX=document.getElementById("c64p3Box"),MODAL=document.getElementById("c64p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c64p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C64P3:END-->
 </body></html>
