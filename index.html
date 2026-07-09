@@ -1083,4 +1083,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C64P3:END-->
+<!--WY-C64P4:BEGIN-->
+<style id="wy-c64p4-css">
+.c64p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c64p4-fabbox.show{display:block;}
+.c64p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c64p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c64p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c64p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c64p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c64p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c64p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c64p4-modal.open{display:flex;}
+.c64p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c64p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c64p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c64p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c64p4-close:hover{background:#e3d5b8;}
+.c64p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c64p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c64p4-tbl th,.c64p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c64p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c64p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c64p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c64p4-tbl b{color:#8b2500;}
+.c64p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c64p4-note b{color:#8b2500;}
+@media(max-width:900px){.c64p4-fabbox{right:14px;}.c64p4-tbl{font-size:11.5px;}.c64p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c64p4-fabbox" id="c64p4Box"><button class="c64p4-btn" id="c64p4Btn" type="button" aria-label="開啟全景總表"><span class="c64p4-ic">▦</span><span class="c64p4-ls"><span class="c64p4-l1">本品 · 空性幾何與般若全息投影</span><span class="c64p4-l2">諸天供養彌勒授記 · 虛空聲響雙喻</span></span></button></div><div class="c64p4-modal" id="c64p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c64p4-card"><button class="c64p4-close" id="c64p4Close" type="button" aria-label="關閉">×</button><h3>卷六十四·第四品 空性幾何與般若全息投影 · 全景總表</h3><p class="sub">卷六十四・第四品｜諸天雲集供養・十方千佛同調・彌勒授記三世如一・虛空清淨不受觸・聲響波動破法執・小菩薩執聖法為實・認知陷阱矩陣・正憶念・八不中道全息運作</p><table class="c64p4-tbl"><caption>一、證信·十方同調三世如一（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>諸天雲集供養之緣起</td><td>三千大千世界諸天以天栴檀香遙散佛上來詣佛所，因本品了了說諸法實相，論主釋為對畢竟空真理表述的宇宙性印證，而非單純崇敬之舉</td></tr><tr><td>空間維度·十方千佛同調</td><td>佛神力令東方乃至十方各現千佛，皆說同一般若波羅蜜品，說法者皆名須菩提、問難者皆名釋提桓因，同名同法之設計把焦點從特定的人移開，重點在所說之法本身</td></tr><tr><td>時間維度·三世如一</td><td>以彌勒足指開山、迦葉骨身持鉢而出之故事，說明過去（迦葉釋迦）現在（釋迦於耆闍崛山）未來（彌勒成佛）三世諸佛皆於同一處說同一般若，如涅槃出三世，時間相本身不可得</td></tr><tr><td>彌勒授記與說法無異</td><td>佛告須菩提彌勒菩薩摩訶薩得阿耨多羅三藐三菩提時，亦當於是處說般若波羅蜜，須菩提問用何相何因何義說，佛答如我說，彌勒所說與釋迦無異</td></tr><tr><td>實相座標系·般若為絕對原點</td><td>綜合空間與時間兩維度，般若即所有時空維度的原點，色非常非無常乃至一切智畢竟淨之真理函數恆定不變，是宇宙的不變量，不因說者時代佛土而改變</td></tr></tbody></table><table class="c64p4-tbl"><caption>二、虛空喻顯清淨本體與聲響喻破法執（核心辯證）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>色清淨故般若清淨</td><td>佛言若色不生不滅、不垢不淨，是名色清淨，清淨非世俗擦拭去污之動態過程，而是本來如是不生不滅之本體狀態，不得諸法生相定實故不生不滅</td></tr><tr><td>虛空不受觸的幾何學</td><td>如虛空不可污故，虛空清淨。虛空無色無形故不可取，不可取故不可染污，邪見戲論刀杖惡事皆穿過虛空而不能染、不能壞，般若亦如是雖有邪見戲論不能染污</td></tr><tr><td>虛空無所得相超越斷常</td><td>如虛空無所得相，般若波羅蜜亦如虛空無所得相故清淨。不得有（若虛空有實體無相即落戲論）不得無（若虛空徹底不存在萬物無法運作），超越有無二元方能涵容緣起生滅</td></tr><tr><td>聲與響的波動力學</td><td>人聲從口中空出撞擊虛空山谷而生回響，兩者皆是頻率波動皆無自性，然凡夫以聲為實、以響為虛，論主要破的正是對發聲源（修行造作）的實有執著</td></tr><tr><td>認知陷阱矩陣·小菩薩執聖法為實</td><td>大菩薩知聖凡二法皆虛誑如幻如夢；小菩薩已能看破凡夫法（響）為虛誑，卻執聖法（聲）為真實，因聖法乃持戒禪定智慧修集功德所成，錯將造作感等同勝義真實性</td></tr></tbody></table><table class="c64p4-tbl"><caption>三、正憶念與八不中道之全息歸宿（收束總攝）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>語言的極限·作法與無作法</td><td>第一義畢竟空言語道斷是無作法，虛空中無音聲語言相；然菩薩以無礙智仍能將同一實相化為十二部經八萬四千法聚之無量言說，是為作法，說法如於虛空造音聲不礙虛空本質</td></tr><tr><td>修行的代價·沉沒成本謬誤</td><td>持戒禪定智慧需長時間修集，修行者因而執此有為法之結果為真實，恰如沉沒成本謬誤；然凡是做出來的（因緣生）即是無自性的，修成的即是無常的即是空的，若見法實有即非見佛</td></tr><tr><td>勝義等化器·凡夫法與聖法平等</td><td>聲音（修行功德）由喉嚨氣息撞擊而出，回響（世間現象）由聲音撞擊山谷而出，兩者皆無實體可得，於不生不滅之實相鏡頭下，聖法（故作有）與凡夫法（自然有）底層邏輯完全平等</td></tr><tr><td>正憶念·顯實與破執之交集</td><td>般若波羅蜜因諸法正憶念故生，正憶念者，畢竟空清淨。正憶念非去念有，而是憶念諸法不生不滅不垢不淨，是住於空（顯實·虛空不染）與行於響（破執·知聲如響）兩者之交集</td></tr><tr><td>八不中道之全息動態運作</td><td>面對聖法觀其不生不淨以破聖法執，面對凡夫法觀其不滅不垢以破凡夫執，兩邊不著當下即是般若，此即空性幾何藍圖中證信、顯實、破執、歸宿四階匯歸般若實相原點之全息解構</td></tr></tbody></table><p class="c64p4-note">本品以了了說諸法實相定調，透過十方千佛同調、三世彌勒授記之證信，把般若真理從釋迦一佛的個人主張，提升為<b>不因說者、時代、佛土而改變的宇宙不變量</b>；繼而以虛空為模型重建清淨的本體論——清淨非擦拭去污之動態過程，而是不可得故不可染污之本然狀態，超越有無二元方能涵容緣起生滅。全品最鋒利處在破執一章：以聲與響皆是同一虛空中的頻率波動、皆無自性，直指修行人最隱微的陷阱——小菩薩雖能看破凡夫法之虛誑，卻因持戒禪定智慧修集之功德感，誤將聖法執為真實，此正是沉沒成本謬誤在修行語境中的翻版。終以般若波羅蜜因諸法正憶念故生收束，正憶念是顯實（虛空不染）與破執（知聲如響）兩條主線之交集，於聖法觀其不生不淨、於凡夫法觀其不滅不垢，兩邊不著，恰是《中論》八不中道——不生不滅、不常不斷、不一不異、不來不出——的全息動態運作，最終直入諸法實相，圓成本品了了說之題旨。</p></div></div>
+<script id="wy-c64p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c64p4Btn"),BOX=document.getElementById("c64p4Box"),MODAL=document.getElementById("c64p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c64p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C64P4:END-->
 </body></html>
