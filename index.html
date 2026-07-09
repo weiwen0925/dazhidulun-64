@@ -977,4 +977,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C64P1:END-->
+<!--WY-C64P2:BEGIN-->
+<style id="wy-c64p2-css">
+.c64p2-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c64p2-fabbox.show{display:block;}
+.c64p2-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c64p2-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c64p2-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c64p2-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c64p2-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c64p2-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c64p2-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c64p2-modal.open{display:flex;}
+.c64p2-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c64p2-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c64p2-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c64p2-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c64p2-close:hover{background:#e3d5b8;}
+.c64p2-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c64p2-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c64p2-tbl th,.c64p2-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c64p2-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c64p2-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c64p2-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c64p2-tbl b{color:#8b2500;}
+.c64p2-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c64p2-note b{color:#8b2500;}
+@media(max-width:900px){.c64p2-fabbox{right:14px;}.c64p2-tbl{font-size:11.5px;}.c64p2-card{padding:26px 14px 16px;}}
+</style>
+<div class="c64p2-fabbox" id="c64p2Box"><button class="c64p2-btn" id="c64p2Btn" type="button" aria-label="開啟全景總表"><span class="c64p2-ic">▦</span><span class="c64p2-ls"><span class="c64p2-l1">本品 · 無作實相品第四十三</span><span class="c64p2-l2">不行即行 · 修般若如修虛空</span></span></button></div><div class="c64p2-modal" id="c64p2Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c64p2-card"><button class="c64p2-close" id="c64p2Close" type="button" aria-label="關閉">×</button><h3>卷六十四·第二品 釋無作實相品第四十三 · 全景總表</h3><p class="sub">卷六十四・第二品｜般若波羅蜜無所作・不行五蘊乃至一切種智是行般若・四對八項雙非・不行不具足・礙不礙貫穿境行果・甚深法說不增減・修般若如修虛空・度眾生如度虛空・一比丘禮般若</p><table class="c64p2-tbl"><caption>一、無所作與行而無行的設立（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>設問之始·般若波羅蜜無所作</td><td>須菩提白佛是般若波羅蜜無所作，佛答作者不可得故，色不可得，乃至一切法不可得故，直指作者尚不可得，何況有所作，此乃全品因緣所繫</td></tr><tr><td>行法根本·不行五蘊乃至一切種智</td><td>佛立全品修行公式：不行色，是行般若波羅蜜；不行受、想、行、識，乃至不行一切種智，是行般若波羅蜜。不行者非斷滅，乃於諸法不取相、不執實、不立能所</td></tr><tr><td>四對八項雙非</td><td>不行色若常若無常、若苦若樂、是我非我、若淨若不淨，乃至一切種智亦然；色無所有性，云何有常無常、苦樂、我無我、淨不淨，破凡夫四顛倒亦破聲聞四對治觀</td></tr><tr><td>不行不具足·超越能所對待</td><td>色不具足者，是不名色；如是亦不行，是行般若波羅蜜。連具足與不具足這對能所對待亦一併不行，破除須菩提離觀法恐墮不具足之疑</td></tr><tr><td>礙不礙貫穿境行果三層</td><td>不行色不礙乃至不行一切種智不礙，涵蓋所觀之境（五蘊六根）、所修之行（六波羅蜜）、所證之果（四沙門果乃至無上菩提道），皆不礙，是行般若波羅蜜</td></tr></tbody></table><table class="c64p2-tbl"><caption>二、甚深法不增不減與大莊嚴本懷（核心辯證）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>甚深法·說與不說皆不增不減</td><td>須菩提歎是甚深法，若說亦不增不減，若不說亦不增不減，佛印可之。此不增不減義即《心經》諸法實相之核心定義，應用於言教之上</td></tr><tr><td>三譬喻·虛空幻人如本不異</td><td>讚毀虛空不增不減、讚毀幻人不喜不憂、諸法相說與不說如本不異，三喻同歸實相不為言教所動；論主更以諸色到須彌山邊同為金色，申明般若能令一切根器同入實相</td></tr><tr><td>修般若如修虛空</td><td>須菩提言修般若波羅蜜，如修虛空。如虛空中無般若波羅蜜，無四念處乃至八聖道分，無阿耨多羅三藐三菩提。虛空中本無一法，菩薩仍於此無一法可得處修般若、不退轉，是為大莊嚴</td></tr><tr><td>度眾生如度虛空</td><td>是人欲度眾生，如欲度虛空。眾生本空而菩薩仍立志度盡，如同欲舉虛空，所緣不可得而願力不退，須菩提以此配大精進、大莊嚴、大勇猛三層發心</td></tr><tr><td>諸佛度生無減咎之反證</td><td>十方諸佛以神通力無量劫度無量阿僧祇眾生入涅槃，而眾生性亦不減、亦不增，以眾生無所有故、眾生離故；若眾生實有，諸佛應負減眾生之咎，反證眾生畢竟空</td></tr></tbody></table><table class="c64p2-tbl"><caption>三、論主疏釋·藥病雙除與二諦圓融（收束總攝）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>不行即行·般若中不受對治法</td><td>論主釋：無常等雖能破常等顛倒，般若中不受是法，以能生著心故。無常雖是對治常見之藥，若執為實則藥轉為毒，唯雙重否定後之懸置狀態方是般若真行</td></tr><tr><td>善法亦觀不淨苦之問答</td><td>設問色等罪法可觀不淨苦，餘善法云何觀不淨苦，論主答是名字不淨、苦，於善法中起愛樂悅可之心，此悅可本身即是繫縛之因，故善法亦可觀不淨苦</td></tr><tr><td>三乘觀法解構矩陣</td><td>凡夫執取定相行諸法常淨樂我，墮法執常見；二乘取對治相行諸法無常不淨苦無我，墮藥執斷見；菩薩諸法畢竟空兩邊亦不行，無所墮、心行處滅</td></tr><tr><td>礙非道·不礙是道</td><td>論主總結礙者是非道，無礙者是道，並指出佛說無礙之教乃因會眾心多迴向空，應機而立——對執常見者先說無常，對已能迴向空者則說連無常亦不行</td></tr><tr><td>一比丘禮般若之二諦圓融</td><td>一比丘聞畢竟空相驚喜言般若中無有法定實相，而有戒眾等及諸果報，無破實有之執，有破斷滅之執，無有並陳正合本品無作而能成一切之題旨</td></tr></tbody></table><p class="c64p2-note">《釋無作實相品第四十三》承〈無生品〉諸法不生不滅之說，正面回答一個極貼近修行的難題——若一切法本不生不滅、不可得，行般若波羅蜜這件事還能否成立？佛以「不行 X，是行般若」的肯否雙遣句法作答，將修行從有所行的層次提升到無所得的層次，並貫穿境（五蘊六根）、行（六波羅蜜）、果（四沙門果乃至無上菩提）三層，令不行不礙成為結論性宣告。<b>連對治法本身亦不可執取</b>——無常雖能破常見之顛倒，但若執無常為實，藥即成新病，此正是《中論》遣執不遣法之理：法本如是，所遣者唯人之執取，不立常，亦不立無常。終以修般若如修虛空、度眾生如度虛空開展大莊嚴之義，以眾生無所有故、眾生離故反證諸佛度生無減無增，一比丘無有法定實相而有戒定慧三寶之驚喜作結，恰是二諦圓融——空非毀滅，而是建設的基石，無作而能成一切，無得而能立三寶。</p></div></div>
+<script id="wy-c64p2-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c64p2Btn"),BOX=document.getElementById("c64p2Box"),MODAL=document.getElementById("c64p2Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=1;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-video-fab,#wyVidFab,.wy-vid-fab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c64p2Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C64P2:END-->
 </body></html>
